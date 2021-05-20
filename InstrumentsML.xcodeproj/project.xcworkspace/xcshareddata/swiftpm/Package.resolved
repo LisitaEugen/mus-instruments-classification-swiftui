@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ImagePickerView",
+        "repositoryURL": "https://github.com/ralfebert/ImagePickerView.git",
+        "state": {
+          "branch": "master",
+          "revision": "b84dd1c85a65cddba40c89699cd63ba0cb248dbd",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
