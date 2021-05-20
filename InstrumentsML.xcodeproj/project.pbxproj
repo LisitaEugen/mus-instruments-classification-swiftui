@@ -14,6 +14,8 @@
 		EA8BCD6D26559C8A00B9EBCD /* InstrumentsMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BCD6C26559C8A00B9EBCD /* InstrumentsMLTests.swift */; };
 		EA8BCD7826559C8A00B9EBCD /* InstrumentsMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BCD7726559C8A00B9EBCD /* InstrumentsMLUITests.swift */; };
 		EA8BCD872657091A00B9EBCD /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = EA8BCD862657091A00B9EBCD /* ImagePickerView */; };
+		EA8BCD8926570B1B00B9EBCD /* MusicInstruments.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EA8BCD8826570B1B00B9EBCD /* MusicInstruments.mlmodel */; };
+		EA8BCD8B26570D1800B9EBCD /* InstrumentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BCD8A26570D1800B9EBCD /* InstrumentsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		EA8BCD7326559C8A00B9EBCD /* InstrumentsMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentsMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8BCD7726559C8A00B9EBCD /* InstrumentsMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsMLUITests.swift; sourceTree = "<group>"; };
 		EA8BCD7926559C8A00B9EBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8BCD8826570B1B00B9EBCD /* MusicInstruments.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MusicInstruments.mlmodel; sourceTree = "<group>"; };
+		EA8BCD8A26570D1800B9EBCD /* InstrumentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				EA8BCD5A26559C8900B9EBCD /* InstrumentsMLApp.swift */,
 				EA8BCD5C26559C8900B9EBCD /* ContentView.swift */,
+				EA8BCD8A26570D1800B9EBCD /* InstrumentsViewModel.swift */,
 				EA8BCD5E26559C8900B9EBCD /* Assets.xcassets */,
+				EA8BCD8826570B1B00B9EBCD /* MusicInstruments.mlmodel */,
 				EA8BCD6326559C8900B9EBCD /* Info.plist */,
 				EA8BCD6026559C8900B9EBCD /* Preview Content */,
 			);
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8BCD8926570B1B00B9EBCD /* MusicInstruments.mlmodel in Sources */,
+				EA8BCD8B26570D1800B9EBCD /* InstrumentsViewModel.swift in Sources */,
 				EA8BCD5D26559C8900B9EBCD /* ContentView.swift in Sources */,
 				EA8BCD5B26559C8900B9EBCD /* InstrumentsMLApp.swift in Sources */,
 			);
